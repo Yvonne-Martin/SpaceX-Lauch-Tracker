@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2F2D2D;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/background.jpg);
+}
+.rockets{
+    display: flex;
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+.white-rocket{
+    width: 500px;
+}
+.brown-rocket{
+    width: 300px;
+}
+.div1{
+    width: 1300px;
+}
+.description{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 5%;
+}
+.buttons{
+    display: flex;
+    gap: 70%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rgb(130, 124, 124);
+    border-radius: 10%;
+    width: 150px;
+    height: 5vh;
+    margin-left: 80%;
+}
