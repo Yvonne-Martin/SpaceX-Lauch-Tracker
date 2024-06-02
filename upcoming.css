@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2F2D2D;
+    margin: 5%;
+    padding: 0;
+    background-image: url(/image/STAR-X.png);
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+#upcoming-launches{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 20px;
+}
+h2{
+    text-align:center;
+    font-size: 30px;
+}
