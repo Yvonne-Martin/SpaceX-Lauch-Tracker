@@ -3,10 +3,14 @@ body {
     background-color: #2F2D2D;
     margin: 0;
     padding: 0;
-    background-image: url(image/background.jpg);
+    background-image: url(images/background.jpg);
 }
 .rockets{
     display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    column-gap: 10px;
+
 }
 p{
     color: white;
@@ -14,9 +18,17 @@ p{
 }
 .white-rocket{
     width: 500px;
+    height:500px;
+    margin-left: 30px;
 }
 .brown-rocket{
-    width: 300px;
+    width: 500px;
+    height: 500px;
+    margin-right: 5%;
+}
+.rocket{
+    width: 500px;
+    height: 500px;
 }
 .div1{
     width: 1300px;
@@ -28,7 +40,9 @@ p{
 }
 .buttons{
     display: flex;
-    gap: 70%;
+    gap: 40%;
+    border-radius: 0px;
+    
 }
 a{
     text-decoration: none;
@@ -36,8 +50,15 @@ a{
 }
 button{
     background-color: rgb(130, 124, 124);
-    border-radius: 10%;
+    border-radius: 20px;
     width: 150px;
     height: 5vh;
     margin-left: 80%;
+}
+.buttonText{
+    margin-left: 5%;
+}
+h1{
+    color: white;
+    margin-left: 21%;
 }
