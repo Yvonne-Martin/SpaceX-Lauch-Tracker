@@ -62,3 +62,71 @@ h1{
     color: white;
     margin-left: 21%;
 }
+@media screen and (min-width: 250px) and (max-width:900px){
+   
+    .rockets{
+        display: grid;
+        justify-content: center;
+        margin-top: 3%;
+        column-gap: 10px;
+        margin-left: 125px;
+    
+    }
+    p{
+        color: white;
+        font-size: 18px;
+    }
+    .white-rocket{
+        width: 350px;
+        height:350px;
+        margin-left: 370px;
+    }
+    .brown-rocket{
+        width: 350px;
+        height: 350px;
+        margin-left: 370px;
+    }
+    .rocket{
+        width: 350px;
+        height: 350px;
+        margin-left: 370px;
+    }
+    .div1{
+        width: 1300px;
+    }
+    .description{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 5%;
+    }
+    .buttons{
+        display: grid;
+        gap: 40%;
+        border-radius: 0px;
+        margin-left: 30%;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    button{
+        background-color: rgb(130, 124, 124);
+        border-radius: 15px;
+        width: 150px;
+        height: 5vh;
+        margin-left: 0%;
+    }
+    .buttonText{
+        margin-left: 5%;
+    }
+    h1{
+        color: white;
+        margin-left: 15%;
+        font-size: 15;
+    } 
+    figcaption{
+        margin-left: 380px;
+        font-size: 8;
+    } 
+}

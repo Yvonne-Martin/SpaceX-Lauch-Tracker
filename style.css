@@ -70,4 +70,81 @@ body {
  .launch p {
     margin: 5px 0;
  }
+ @media screen and (min-width: 250px) and (max-width:900px){
+   .explore{
+      margin-left: 27%;
+   }
+   body {
+      font-family: Arial, sans-serif;
+      background-color: #2f2d2d;
+      margin: 0;
+      padding: 0;
+      background-image: url(/images/background.jpg);
+   }
+   img{
+     margin-left: 10%;
+      height: 800px;
+      width: 800px;
+      transform: rotate(60deg);
+   }
+   .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+   }
+   .landing-page{
+   
+   
+      display: flex;
+   }
+   h1, h2 {
+      text-align: center;
+      margin: 20px 0;
+      color: #fff;
+      font-size: 50px;
+      margin-top: 5%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   
+   h3{
+      color: white;
+      margin-top: 10%;
+      justify-content: center;
+   }
+   p{
+      color: white;
+      margin-top: 30%;
+      font-size: 20px;
+   }
+   button{
+      background-color: rgb(130, 124, 124);
+      border-radius: 5%;
+      height: 7%;
+      width: 25%;
+      margin-top: 22%;
+      margin-left: 20%;
+    
+   }
+   a{
+      text-decoration: none;
+     color: white;
+    
+   }
+   .launch {
+      background: #fff;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+   }
+   .launch h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 1.3em;
+   }
+   .launch p {
+      margin: 5px 0;
+   }
+ }
  
