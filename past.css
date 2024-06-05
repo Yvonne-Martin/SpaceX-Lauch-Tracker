@@ -4,16 +4,29 @@ body {
     background-color: #2F2D2D;
     margin: 5%;
     padding: 0;
-    background-image: url(/image/STAR-X.png);
+    background-image: url(images/background.jpg);
     color: aliceblue;
 }
 #past-launches{
-    display: flex;
-    flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
     gap: 30px;
     font-size: 20px;
 }
 h2{
     text-align:center;
     font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding: 13px;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    width: 6%;
+}
+.filter-btn{
+    width: 6%;
 }

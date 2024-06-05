@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         launchElement.appendChild(launchDetails);
         return launchElement;
     }
+
     // Fetch upcoming launches
     fetch('https://api.spacexdata.com/v4/launches/upcoming')
         .then(response => response.json())
@@ -45,11 +46,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const init = async()=>{
             const launches =await fetchLauches();
             displayLaunches(launches),
-            yearFilterElement.addEventListener('input',(event)=>{
+           yearFilterElement.addEventListener('input',(event)=>{
                 const year = event.target.value;
-                const filteredLaunches=year?filterLaunchesByYear(launches,year):lauches;
-                displayLaunches(filteredLaunches)
-            });
+              const filteredLaunches=year?filterLaunchesByYear(launches,year):lauches;
+               displayLaunches(filteredLaunches)
+          });
         };
-        init()
-});
+     
+ });
