@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         launchDate.textContent = `Date: ${new Date(launch.date_utc).toLocaleDateString()}`;
         const launchDetails = document.createElement('p');
         launchDetails.textContent = `Details: ${launch.details || 'No details available'}`;
+        // TODO: Create an image element and add a placeholder image for each item
         launchElement.appendChild(launchName);
         launchElement.appendChild(launchDate);
         launchElement.appendChild(launchDetails);
@@ -48,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             displayLaunches(launches),
            yearFilterElement.addEventListener('input',(event)=>{
                 const year = event.target.value;
-              const filteredLaunches=year?filterLaunchesByYear(launches,year):lauches;
+              const filteredLaunches=year?filterLaunchesByYear(launches,year):launches;
                displayLaunches(filteredLaunches)
           });
         };
