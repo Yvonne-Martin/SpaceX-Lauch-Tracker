@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="past.css">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 </head>
 <body>
-    <h2>Past Launches</h2>
+    <button type="submit" id="backBtn"><a href="/launch.html">Back</a></button>
+    <h1>Past Launches</h1>
+    <div class="buttonAndInput">
     <div>
-        <label for="yearfilter">Filter by year:</label>
-        <input type="text"id="yearFilter"placeholder="e.g 2024">
+        <label for="yearfilter">Enter year:</label>
+        <input type="text"id="yearFilter"placeholder="e.g 2024" class="yearInput">
     </div>
-    <div>
-    <div id="LaunchList">
-    </div>
-    <button>Filter</button>
+    <button class="filterbtn">Filter</button>
     </div>    
     <div id="past-launches">
     </div>

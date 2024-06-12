@@ -3,17 +3,42 @@ body {
     background-color: #2F2D2D;
     margin: 5%;
     padding: 0;
-    background-image: url(/image/STAR-X.png);
+    background-image: url(images/blueback.jpg);
     background-repeat: no-repeat;
     color: aliceblue;
+    background-size: 100%;
 }
 #upcoming-launches{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     gap: 30px;
     font-size: 20px;
+    
+}
+#upcoming-launches li{
+    background-color: bisque;
+
 }
 h2{
     text-align:center;
     font-size: 30px;
+}
+#backBtn{
+    background-color: rgb(145, 100, 234);
+    border-radius: 10px;
+    width: 150px;
+    height: 5vh;
+    color: rgb(224, 229, 233);
+}
+button{
+    color: rgb(241, 245, 249);
+    text-decoration: none;
+    border-radius: 17px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    border-radius: 10%;
 }

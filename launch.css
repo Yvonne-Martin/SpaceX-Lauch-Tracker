@@ -1,15 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url(/images/background.jpg);
     background-color: #2F2D2D;
-    margin: 0;
-    padding: 0;
-    background-image: url(images/background.jpg);
-}
+ background-repeat: no-repeat;
+background-size: 100% 150%;}
 .rockets{
     display: flex;
-    justify-content: center;
-    margin-top: 3%;
-    column-gap: 10px;
+    margin-top: 1%;
+    
 
 }
 p{
@@ -19,12 +17,11 @@ p{
 .white-rocket{
     width: 500px;
     height:500px;
-    margin-left: 30px;
 }
 .brown-rocket{
     width: 500px;
     height: 500px;
-    margin-right: 5%;
+    margin-right: 50px;
 }
 .rocket{
     width: 500px;
@@ -40,8 +37,9 @@ p{
 }
 .buttons{
     display: flex;
-    gap: 40%;
+    gap: 60%;
     border-radius: 0px;
+    height: 30px;
     
 }
 a{
@@ -56,9 +54,29 @@ button{
     margin-left: 80%;
 }
 .buttonText{
-    margin-left: 5%;
+    margin-left: 15%;
 }
 h1{
     color: white;
-    margin-left: 21%;
+    margin-left: 31%;
+}
+b{
+    font-size: large;
+}
+.back-button{
+    margin-right: 110%;
+}
+.btn{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 4px;
+}
+span{
+    color: white;
+    font-size: medium;
+    height: 100px;
+    
+}
+img{
+    border-radius: 10%;
 }
